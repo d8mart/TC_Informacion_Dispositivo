@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marti.tc_informacion_dispositivo.MainActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="19"
+       >
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="@string/perfil"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/modelo"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/modelo"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/modelocontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/modelo"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id="@+id/mac"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/mac"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/maccontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/mac"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/ip"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/ip"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/ipcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/ip"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id="@+id/api"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/api"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/apicontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/api"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/wifi"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/wificontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/wifi"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/imei"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/imei"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/imeicontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/imei"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/correo"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/correo"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/correocontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/correo"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espaciado"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/ubicacion"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/ubicacioncontent"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:hint="@string/ubicacion"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/appbtn"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginTop="@dimen/espacio_boton"
+            android:text="@string/aplicaciones"
+            android:layout_weight="2"
+            android:onClick="actividadListaApp"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

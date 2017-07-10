@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TC_Informacion_Dispositivo</string>
+
+    <string name="perfil">PERFIL DEL DISPOSITIVO</string>
+    <string name="modelo">Modelo :</string>
+    <string name="mac">MAC :</string>
+    <string name="ip">IP :</string>
+    <string name="api">API :</string>
+    <string name="wifi">Wifi :</string>
+    <string name="imei">IMEI :</string>
+    <string name="correo">Correo :</string>
+    <string name="ubicacion">Ubicacion :</string>
+    <string name="aplicaciones">Aplicaciones :</string>
+
+    <string name="nombre_app">Nombre App :</string>
+    <string name="nombre_pkg">Nombre Paquete :</string>
+    <string name="fecha_inst">Fecha Instalacion :</string>
+
+
+</resources>
